@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "8dac910e-7ec5-4112-b5f4-448783c3764f",
+		"name": "Fase 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "helloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "helloUserName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/Jaime",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"Jaime"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

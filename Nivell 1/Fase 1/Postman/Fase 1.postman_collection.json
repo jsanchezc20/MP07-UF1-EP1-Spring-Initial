@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "3ffb7df4-e569-4ff5-9d6a-1129201cd08d",
+		"name": "Fase 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 https://restcountries.com/v3.1/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
