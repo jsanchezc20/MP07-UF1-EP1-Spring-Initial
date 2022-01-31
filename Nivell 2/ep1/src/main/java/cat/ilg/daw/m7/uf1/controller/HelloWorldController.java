@@ -1,4 +1,4 @@
-package springBootInitialDemo.controller;
+package cat.ilg.daw.m7.uf1.controller;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.PathVariable;

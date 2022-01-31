@@ -26,13 +26,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{IP}}:{{port}}/Jaime",
+					"raw": "{{IP}}:{{port}}/{{userName}}",
 					"host": [
 						"{{IP}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"Jaime"
+						"{{userName}}"
 					]
 				}
 			},
